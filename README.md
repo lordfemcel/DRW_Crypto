@@ -7,11 +7,13 @@ The project focuses on predicting future trends in cryptocurrency markets using 
 
 **Tuning**: Optuna with TimeSeriesSplit to ensure no future information leaks into past training.
 
-📄 License
+# 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
+ 
 
 
 
