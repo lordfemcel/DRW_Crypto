@@ -1,16 +1,10 @@
-# DRW_Crypto
-Crypto analysis for predicting future pricess by employing boosted trees + OPTUNA 
+# Precisely
+The project focuses on predicting future trends in cryptocurrency markets using historical market data( dataset with ~525K rows ). It employs XGBoost, a powerful gradient boosting framework, along with feature engineering and hyperparameter optimization to build a robust predictive model. The goal is to identify patterns and predict market movements based on various indicators.
 
 
+Model: XGBoost Regressor
+Tuning: Optuna with TimeSeriesSplit to ensure no future information leaks into past training.
 
-# Feature Engineering
-historical market data + technical indicators + 890 propriety market features
-
-Model Stacking has been used
-
-
-
-forecasting goes brrrrrr
 
 
 
